@@ -18,7 +18,7 @@ addBtn.addEventListener('click', () => {
 
         // 삭제 버튼 생성
         const deleteBtn = document.createElement('span');
-        deleteBtn.textContent = '✔️';
+        deleteBtn.textContent = '✅';
         deleteBtn.className = 'delete-btn';
         
         // 삭제 버튼 클릭 시 항목 제거
